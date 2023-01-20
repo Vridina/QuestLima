@@ -4,18 +4,12 @@
 
     <!-- заголовок  -->
     <h1 class="display-1">
-        <%= "Пришло время ..." %>
+        <%= "Предыстория" %>
     </h1>
     <h2 class="display-2">начать Игру!</h2>
-    <!-- контеная часть под заголовком  -->
     <br/>
-    <div class="row">
-        <div class="col">
-            <a href="/start">
-                <button type="button" class="btn btn-danger">Начать игру</button>
-            </a>
-        </div>
-    </div>
+
+
 
 
 <%@ include file="block/footerMenu.jsp"%>

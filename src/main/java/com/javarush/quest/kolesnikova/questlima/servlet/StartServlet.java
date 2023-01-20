@@ -1,12 +1,12 @@
-package com.javarush.quest.khmelov.questdelta;
+package com.javarush.quest.kolesnikova.questlima.servlet;
 
 import java.io.*;
 
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
+@WebServlet(name = "startServlet", value = "/start")
+public class StartServlet extends HttpServlet {
     private String message;
 
     public void init() {
